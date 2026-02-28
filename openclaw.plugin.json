@@ -1,0 +1,20 @@
+{
+  "id": "damage-control",
+  "name": "Damage Control",
+  "description": "Security guardrails that block dangerous commands and protect sensitive files via before_tool_call hooks.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "patternsFile": {
+        "type": "string",
+        "description": "Path to patterns.yaml (defaults to extension directory)"
+      },
+      "enabled": {
+        "type": "boolean",
+        "default": true,
+        "description": "Enable or disable the damage control hook"
+      }
+    }
+  }
+}

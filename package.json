@@ -1,0 +1,30 @@
+{
+  "name": "openclaw-damage-control",
+  "version": "1.0.0",
+  "description": "Security guardrails for OpenClaw - blocks dangerous commands and protects sensitive files",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "security",
+    "guardrails",
+    "damage-control"
+  ],
+  "author": "SynDG",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syndg/openclaw-damage-control.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syndg/openclaw-damage-control/issues"
+  },
+  "homepage": "https://github.com/syndg/openclaw-damage-control#readme",
+  "dependencies": {
+    "yaml": "^2.3.4"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2024.0.0"
+  }
+}
