@@ -132,3 +132,18 @@ Set `enabled: false` to disable without removing the plugin.
 ## License
 
 MIT
+
+## Agent Installation
+
+Already using OpenClaw? Just ask your agent:
+
+> Install the damage-control security plugin from https://github.com/the-synclaw/openclaw-damage-control
+
+Or give it this instruction:
+
+```
+Clone https://github.com/the-synclaw/openclaw-damage-control to ~/.openclaw/extensions/damage-control/
+Run `npm install` in that directory, then `openclaw gateway restart`.
+```
+
+See [INSTALL.agent.md](./INSTALL.agent.md) for detailed agent-friendly instructions.
